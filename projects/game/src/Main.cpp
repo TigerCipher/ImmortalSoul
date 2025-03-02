@@ -8,7 +8,7 @@ int main()
     constexpr int screenHeight = 450;
 
     SetConfigFlags(FLAG_VSYNC_HINT | FLAG_WINDOW_HIGHDPI);
-    InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+    InitWindow(screenWidth, screenHeight, "Immortal Soul");
 
     while (!WindowShouldClose())
     {
